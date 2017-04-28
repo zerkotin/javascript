@@ -16,7 +16,9 @@ typeof a; //this will return object too
 a = undefined;
 typeof a;	//undefined
 
-a = {b: 'c'};
+a = {
+  b: 'c'
+};
 typeof a; //object
 
 a = function(){}
