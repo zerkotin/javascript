@@ -6,3 +6,5 @@ The suggested order is available in the wiki page.
 This is my way of presenting and training javascript to programers.
 
 Have fun!
+
+code examples are copied/inspired by "you dont know js"
