@@ -13,7 +13,6 @@ var obj2 = {
 	bar: 'obj2'
 };
 
-// --------
 
 foo(); //global
 obj1.foo(); //obj1
@@ -31,8 +30,10 @@ var obj = {
 };
 
 var id = 'not awesome';
+var foo = obj.cool;
 
 obj.cool(); //awesome
+foo(); //not awesome
 
 setTimeout( obj.cool, 100 ); //not awesome
 
@@ -56,7 +57,7 @@ obj.cool(); //woo hoo
 
 
 ///or use bind
-ar obj = {
+var obj = {
 	id: 'awesome',
 	cool: function coolFn() {
 		console.log( this.id );
