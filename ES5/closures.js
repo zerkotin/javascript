@@ -4,14 +4,14 @@ function outer() {
 	function inner() {
 		var b = 2;
 
-		// we can access both `a` and `b` here
-		console.log( a + b );	// 3
+		//inner can see the wrapping function's variabeles
+		console.log( a + b );	//3
 	}
 
 	inner();
 
-	// we can only access `a` here
-	console.log( a );			// 1
+	console.log(b); //reference error
+	console.log( a );	//1
 }
 
 outer();
@@ -19,31 +19,18 @@ outer();
 
 ///cool adder
 function makeAdder(x) {
-	// parameter `x` is an inner variable
-
-	// inner function `add()` uses `x`, so
-	// it has a "closure" over it
 	function add(y) {
-		return y + x;
-	};
-
+		return y + x; //this will make the x remain in the VM memory, the power of closure :)
+	}
 	return add;
 }
 
-// `plusOne` gets a reference to the inner `add(..)`
-// function with closure over the `x` parameter of
-// the outer `makeAdder(..)`
 var plusOne = makeAdder( 1 );
-
-// `plusTen` gets a reference to the inner `add(..)`
-// function with closure over the `x` parameter of
-// the outer `makeAdder(..)`
 var plusTen = makeAdder( 10 );
 
-plusOne( 3 );		// 4  <-- 1 + 3
-plusOne( 41 );		// 42 <-- 1 + 41
-
-plusTen( 13 );		// 23 <-- 10 + 13
+plusOne(3); //4
+plusOne(41); //42
+plusTen(13); //23
 
 
 ///closure and async

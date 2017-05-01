@@ -1,11 +1,11 @@
 ///unnamed/annonymous function
 setTimeout( function(){
-	console.log("I waited 1 second!");
+	console.log('I waited 1 second!');
 }, 1000 );
 
 ///named function
 setTimeout( function timeoutHandler(){ // <-- Look, I have a name!, better for stack trace
-	console.log( "I waited 1 second!" );
+	console.log('I waited 1 second!');
 }, 1000 );
 
 

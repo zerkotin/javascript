@@ -2,15 +2,15 @@ function foo() {
 	console.log( this.bar );
 }
 
-var bar = "global";
+var bar = 'global';
 
 var obj1 = {
-	bar: "obj1",
+	bar: 'obj1',
 	foo: foo
 };
 
 var obj2 = {
-	bar: "obj2"
+	bar: 'obj2'
 };
 
 // --------
@@ -24,17 +24,17 @@ new foo(); //undefined
 
 ///another example
 var obj = {
-	id: "awesome",
+	id: 'awesome',
 	cool: function coolFn() {
-		console.log( this.id );
+		console.log(this.id);
 	}
 };
 
-var id = "not awesome";
+var id = 'not awesome';
 
-obj.cool(); // awesome
+obj.cool(); //awesome
 
-setTimeout( obj.cool, 100 ); // not awesome
+setTimeout( obj.cool, 100 ); //not awesome
 
 
 ///the this=that solution
@@ -46,25 +46,25 @@ var obj = {
 		if (self.count < 1) {
 			setTimeout( function timer(){
 				self.count++;
-				console.log( "awesome?" );
+				console.log('woo hoo');
 			}, 100 );
 		}
 	}
 };
 
-obj.cool(); // awesome?
+obj.cool(); //woo hoo
 
 
 ///or use bind
 ar obj = {
-	id: "awesome",
+	id: 'awesome',
 	cool: function coolFn() {
 		console.log( this.id );
 	}
 };
 
-var id = "not awesome";
+var id = 'not awesome';
 
-obj.cool(); // awesome
+obj.cool(); //awesome
 
 setTimeout( obj.cool.bind(obj), 100 ); //the downside - it creates a new function

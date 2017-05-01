@@ -12,7 +12,7 @@ function User(){
 		username = user;
 		password = pw;
 
-		// do the rest of the login work
+		//do the rest of the login work
 	}
 
 	var publicAPI = {
@@ -22,10 +22,10 @@ function User(){
 	return publicAPI;
 }
 
-// create a `User` module instance
+//create a `User` module instance
 var fred = User();
 
-fred.login( "fred", "12Battery34!" );
+fred.login('fred', '12Battery34!');
 
 ///security
 var a = 2;
@@ -33,8 +33,8 @@ var a = 2;
 (function foo(){
 
 	var a = 3;
-	console.log( a ); // 3
+	console.log( a ); //3
 
-})(); 
+})();
 
-console.log( a ); // 2
+console.log( a ); //2

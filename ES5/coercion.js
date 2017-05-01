@@ -1,23 +1,20 @@
 ///converting to numbers
-
-var a = "42";
+var a = '42';
 var b = Number( a );
 
-console.log( a );	// "42"
-console.log( b );	// 42
+console.log( a );	//"42"
+console.log( b );	//42
 
 ///converting to string
+var num = 17;
+num = num * 2;
 
-var amount = 99.99;
+console.log(num); //34
 
-amount = amount * 2;
+amount = '$' + String(amount);
+console.log( amount ); //"$34"
 
-console.log( amount );		// 199.98
-
-// convert `amount` to a string, and
-// add "$" on the beginning
-amount = "$" + String( amount );
-
-console.log( amount );		// "$199.98"
+amount = '$' + num;
+console.log(amount); //"$34"
 
 //TODO add coercion examples

@@ -1,40 +1,40 @@
 ///the if
 var a = 1;
 if (a == 2) {
-	// do something
+	//do something
 }
 else if (a == 10) {
-	// do another thing
+	//do something else
 }
 else if (a == 42) {
-	// do yet another thing
+	//and another one
 }
 else {
-	// fallback to here
+	//if all else fails
 }
 
 ///switch
 switch (a) {
 	case 2:
 	case 10:
-		// some cool stuff
+		//do something
 		break;
 	case 42:
-		// other stuff
+		//do somthing else
 		break;
 	default:
-		// fallback
+		//if all else fails
 }
 
 ///ternary
 var a = 42;
 
-var b = (a > 41) ? "hello" : "world";
+var b = (a > 41) ? 'hello' : 'world';
 
-//similar to:
+//same as
 if (a > 41) {
-   b = "hello";
+   b = 'hello';
 }
 else {
-   b = "world";
+   b = 'world';
 }
