@@ -31,7 +31,3 @@ var plusTen = makeAdder( 10 );
 plusOne(3); //4
 plusOne(41); //42
 plusTen(13); //23
-
-
-///closure and async
-//TODO async example
