@@ -5,14 +5,14 @@ var arr = [
 ];
 
 arr[0]; //hello world
-arr[1]; // 42
-arr[2]; // true
+arr[1]; //42
+arr[2]; //true
 arr.length; //3
 
-typeof arr;		//object
+typeof arr; //object
 
 arr.forEach(function(item){
-	console.log(item);//will print all items
+	console.log(item); //will print all items
 });
 
 for(var i=0; i<arr.length; i++) {
