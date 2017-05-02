@@ -4,7 +4,7 @@ explaining javascript with javascript
 This project is meant to explain all the aspects of javascript through code examples with comments.
 
 Order:
-[types.js]()
+[types.js](ES5/types.js)
 [conditionals.js]()
 [/ES5/coercion.js]
 /ES5/equality.js
