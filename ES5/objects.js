@@ -14,7 +14,7 @@ obj['c'];	//true
 
 ///polyfilling
 if (!Number.isNaN) {
-	Number.isNaN = function isNaN(x) {
+	Number.isNaN = function isNaN(x) { //better make the change directly on prototype
 		return x !== x;
 	};
 }
@@ -31,5 +31,3 @@ bar.b = 'hello world';
 
 bar.b; //"hello world"
 bar.a; //42
-
-//TODO add more object.create examples
