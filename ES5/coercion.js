@@ -2,8 +2,8 @@
 var a = '42';
 var b = Number( a );
 
-console.log( a );	//"42"
-console.log( b );	//42
+console.log( a ); //"42"
+console.log( b ); //42
 
 ///converting to string
 var num = 17;
@@ -19,7 +19,7 @@ console.log(amount); //"$34"
 
 //we can see that string is the strong type and everything combined with a string is coerced into a string
 
-true + 't'; //truet
+true + 't'; //"truet"
 
 true + 1; //2
 //wow, true is actually 1
