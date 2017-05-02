@@ -4,8 +4,8 @@ explaining javascript with javascript
 This project is meant to explain all the aspects of javascript through code examples with comments.
 
 Order:
-[/ES5/types.js]
-[/ES5/conditionals.js]
+[types.js]()
+[conditionals.js]()
 [/ES5/coercion.js]
 /ES5/equality.js
 /ES5/scopes.js
