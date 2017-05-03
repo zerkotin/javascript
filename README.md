@@ -1,9 +1,12 @@
-# javascript
-explaining javascript with javascript
+# Javascript
+Explaining Javascript with Javascript
 
 This project is meant to explain javascript through code examples and comments.
 
-Order:
+## ES5
+Currently, becuase of browser support and the fact that most apps needs to support relatively old browsers (of course old is relative), most projects will be written in ES5 of alternatively be converted to ES5 using Babel or something similar.  
+
+### Order
 - [types.js](ES5/types.js)
 - [conditionals.js](ES5/conditionals.js)
 - [coercion.js](ES5/coercion.js)
@@ -21,4 +24,5 @@ Order:
 - [modules.js](ES5/modules.js)
 - [promises.js](ES5/promises.js)
 
+### Credits:  
 code examples are copied/inspired by "you dont know js" and "MDN"
