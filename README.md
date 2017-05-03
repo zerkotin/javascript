@@ -4,7 +4,7 @@ Explaining Javascript with Javascript
 This project is meant to explain javascript through code examples and comments.
 
 ## ES5
-Currently, becuase of browser support and the fact that most apps needs to support relatively old browsers (of course old is relative), most projects will be written in ES5 of alternatively be converted to ES5 using Babel or something similar.  
+Currently, becuase of browser support and the fact that most apps needs to support relatively old browsers (of course old is relative), most projects will be written in ES5 or alternatively be converted to ES5 using Babel or something similar.  
 
 ### Order
 - [types.js](ES5/types.js)
@@ -24,5 +24,11 @@ Currently, becuase of browser support and the fact that most apps needs to suppo
 - [modules.js](ES5/modules.js)
 - [promises.js](ES5/promises.js)
 
-### Credits:  
+## ES2015
+ES2015 is the rising new standard, it includes several solutions for old Javascript ailments such as `let`, `class`, `proxy` and so on...
+
+### Order
+- will be availbale soon
+
+## Credits:  
 code examples are copied/inspired by "you dont know js" and "MDN"
