@@ -24,7 +24,7 @@ Currently, becuase of browser support and the fact that most apps needs to suppo
 - [modules.js](ES5/modules.js)
 - [promises.js](ES5/promises.js)
 
-## ES2015
+## ES6 / ES2015
 ES2015 is the rising new standard, it includes several solutions for old Javascript ailments such as `let`, `class`, `proxy` and so on...
 
 ### Order
