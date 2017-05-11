@@ -69,3 +69,22 @@ var id = 'not awesome';
 obj.cool(); //awesome
 
 setTimeout( obj.cool.bind(obj), 100 ); //the downside - it creates a new function
+
+
+///Extra clarification
+var obj = {
+    foo: function() {
+        console.log(this);
+        var something = function() {
+		console.log(this);
+	}
+	function somethingElse() {
+		console.log(this);
+	}
+        something(); //reference without call site
+	somethingElse(); //function without call site
+    }
+}
+
+obj.foo(); //Object, Window, Window
+//no matter what is the first scope, if you call a function without a call site the call site is Window.
