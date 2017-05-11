@@ -74,12 +74,12 @@ setTimeout( obj.cool.bind(obj), 100 ); //the downside - it creates a new functio
 ///Extra clarification
 var obj = {
     foo: function() {
-        console.log(this);
+        console.log(this); //Object
         var something = function() {
-		console.log(this);
+		console.log(this); //Window
 	}
 	function somethingElse() {
-		console.log(this);
+		console.log(this); //Window
 	}
         something(); //reference without call site
 	somethingElse(); //function without call site
