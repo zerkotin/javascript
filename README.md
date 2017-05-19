@@ -29,6 +29,7 @@ ES6 is the rising new standard, it includes several solutions for old Javascript
 
 ### Order
 - [let.js](ES6/let.js)
+- [constants.js](ES6/constants.js)
 
 content of ES6 is in progress
 
