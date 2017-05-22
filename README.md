@@ -53,3 +53,4 @@ ES6 is the rising new standard, it includes several solutions for old Javascript
 
 ## Credits:  
 Code examples are copied/inspired by "you dont know js" and "MDN"
+
