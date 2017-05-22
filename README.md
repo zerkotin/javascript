@@ -33,6 +33,12 @@ ES6 is the rising new standard, it includes several solutions for old Javascript
 - [3dot.js](ES6/3dot.js)
 - [destruction.js](ES6/destruction.js)
 
+#### TODO
+- [classes.js](ES6/classes.js)
+- [functions.js](ES6/functions.js)
+- [modules.js](ES6/modules.js)
+- [symbols.js](ES6/symbols.js)
+
 content of ES6 is in progress
 
 ## Credits:  
