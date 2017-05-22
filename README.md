@@ -27,12 +27,12 @@ Currently, becuase of browser support and the fact that most apps needs to suppo
 Design patterns in javascript are not a common commodity, but i think they are important as they can be tricky sometimes.  
 Async on the other hand is used on almost every app, we must understand how to avoid bugs within async code.
 
-###
+### Content
 - [modules.js](ES5/modules.js)
 - [async.js](ES5/async.js)
 
-#### coming soon
-More design patterns and async examples...
+#### Coming soon
+_More design patterns and async examples..._
 
 ## ES6
 ES6 is the rising new standard, it includes several solutions for old Javascript ailments such as `let`, `class`, `proxy` and so on...
@@ -43,7 +43,7 @@ ES6 is the rising new standard, it includes several solutions for old Javascript
 - [3dot.js](ES6/3dot.js)
 - [destruction.js](ES6/destruction.js)
 
-#### coming soon
+#### Coming soon
 - [classes.js](ES6/classes.js)
 - [functions.js](ES6/functions.js)
 - [modules.js](ES6/modules.js)
@@ -52,4 +52,4 @@ ES6 is the rising new standard, it includes several solutions for old Javascript
 - [proxies.js](ES6/proxies.js)
 
 ## Credits:  
-code examples are copied/inspired by "you dont know js" and "MDN"
+Code examples are copied/inspired by "you dont know js" and "MDN"
