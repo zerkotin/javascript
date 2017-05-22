@@ -29,11 +29,18 @@ var clone = arr.slice(0);
 
 //map - converting or extracting data from an array
 var point = {x: 1, y: 2};
-arr = [point, point, point, point]; //array of points with x,y
+arr = [point, point, point, {x: 3, y: 4, z: 5}]; //array of points with x,y
 
 var arrOfX = arr.map(function(item){
 	return item.x;
 });
 
-arrOfX; //[1, 1, 1, 1]
+arrOfX; //[1, 1, 1, 3]
+
+//filter - filter items that return true
+var filtered = arr.filter(function(item){
+	return item.z;
+});
+
+filtered; //[{x: 3, y: 4, z: 5}]
 
