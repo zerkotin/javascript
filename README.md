@@ -23,15 +23,14 @@ Currently, becuase of browser support and the fact that most apps needs to suppo
 - [this.js](ES5/this.js)
 - [prototypes.js](ES5/prototypes.js)
 
-## Design Patterns and Async
+### Design Patterns and Async
 Design patterns in javascript are not a common commodity, but i think they are important as they can be tricky sometimes.  
 Async on the other hand is used on almost every app, we must understand how to avoid bugs within async code.
 
-### Content
 - [modules.js](ES5/modules.js)
 - [async.js](ES5/async.js)
 
-#### Coming soon
+##### Coming soon
 _More design patterns and async examples..._
 
 ## ES6
