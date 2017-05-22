@@ -19,7 +19,7 @@ foo(arr); //Array within Array with length of 4
 foo(...arr); //Array with length of 4
 
 
-//or using is both ways
+//or using it both ways
 function foo(...arr) {
   console.log(...arr);
 }
