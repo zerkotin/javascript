@@ -11,7 +11,7 @@ num = num * 2;
 
 console.log(num); //34
 
-amount = '$' + String(amount);
+amount = '$' + String(num);
 console.log( amount ); //"$34"
 
 amount = '$' + num;
@@ -28,3 +28,10 @@ false + 1; //1
 //false is 0
 
 //when coercing boolean with a number, true is 1 and false becomes 0
+
+//converting to a number
+var s = '7';
++s; //7
+parseInt(s); //7
+parseFloat(s); //7
+Number(s); //7
