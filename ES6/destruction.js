@@ -10,9 +10,14 @@ c; //"are"
 d; //"you"
 
 //mapping
-var {a:x, b:y} = o;
+var {a:x, b:y} = o; 
 x; //"hello"
 y; //"how"
+
+var {a: a, a:b} = o;
+a; //"hello"
+b; //"hello"
+
 
 //array destruction
 var [a, b, c, d] = arr;
@@ -47,3 +52,5 @@ var target = {};
 
 ({[ref]: target[ref]} = source); //you have to bracket it
 target.x; //5
+
+//REMINDER Hierarchical destructing
