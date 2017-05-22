@@ -27,3 +27,14 @@ function foo(...arr) {
 foo(arr); //Array  with length of 4
 foo(...arr); //1 2 3 4
 
+//another example
+function foo(a, b, ...c) {
+	console.log( a, b, c );
+}
+
+foo( 'a', 'b', 'c', 'd', 'e' );	 //"a" "b" ["c", "d", "e"]
+
+//the ... can also be used as concat
+var arr = [ 'a', ...['b', 'c', 'd'], 'e' ];
+console.log(arr); //["a", "b", "c", "d", "e"]
+
