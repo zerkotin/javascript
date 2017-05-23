@@ -29,4 +29,3 @@ o.somethings(); //"look at that"
 o.somethingx(); //"consice"
 
 //TODO Object.assign
-//TODO generators
