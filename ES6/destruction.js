@@ -3,11 +3,12 @@ var o = {a: 'hello', b: 'how', c: 'are', d: 'you'};
 var arr = ['hello', 'how', 'are', 'you'];
 
 //object destruction
-var {a, b, c, d} = o;
-a; //"hello"
+var {b, c, d, e} = o;
+a; //undefined
 b; //"how"
 c; //"are"
 d; //"you"
+e; //undefined
 
 //mapping
 var {a:x, b:y} = o; 
@@ -20,11 +21,12 @@ b; //"hello"
 
 
 //array destruction
-var [a, b, c, d] = arr;
-a; //"hello"
+var [, b, c, d, e] = arr;
+a; //undefined
 b; //"how"
 c; //"are"
 d; //"you"
+e; //undefined
 
 //declaration options
 var a,b,c,d;
