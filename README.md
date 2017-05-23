@@ -52,5 +52,5 @@ ES6 is the rising new standard, it includes several solutions for old Javascript
 - [proxies.js](ES6/proxies.js)
 
 ## Credits:  
-Code examples are copied/inspired by "you dont know js" and "MDN"
+Code examples are copied/inspired by ["You-Dont-Know-JS"](https://github.com/getify/You-Dont-Know-JS) and ["MDN"](https://developer.mozilla.org/en-US/)
 
