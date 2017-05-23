@@ -10,6 +10,9 @@ arr[2]; //true
 arr.length; //3
 
 typeof arr; //object
+arr instanceof Array; //true
+
+//push, pop, shift, unshift - to manipulate the array items
 
 arr.forEach(function(item){
 	console.log(item); //will print all items
