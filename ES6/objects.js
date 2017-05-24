@@ -42,7 +42,7 @@ var o2 = {
     super.foo(); //using super - cannot call super() only super.function!
   }
 }
-Object.setPrototypeOf( o2, o1 ); //setting the prototype
+Object.setPrototypeOf( o2, o1 ); //setting the prototype - similarly there is a getPrototypeOf function
 o2.foo(); //2
 
 //Object.assign
