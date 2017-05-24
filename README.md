@@ -43,9 +43,9 @@ ES6 is the rising new standard, it includes several solutions for old Javascript
 - [destruction.js](ES6/destruction.js)
 - [functions.js](ES6/functions.js)
 - [objects.js](ES6/objects.js)
+- [templates.js](ES6/templates.js)
 
 #### Coming soon
-- [templates.js](ES6/templates.js)
 - [classes.js](ES6/classes.js)
 - [modules.js](ES6/modules.js)
 - [symbols.js](ES6/symbols.js)
