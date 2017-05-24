@@ -53,7 +53,7 @@ ES6 is the rising new standard, it includes several solutions for old Javascript
 - [proxies.js](ES6/proxies.js)
 
 ## Performance
-Javascript performance is less of an issue with the advancement of computers and browsers, but its still an issue worth learning.
+Javascript performance is less of an issue with the advancement of computers and browsers, but its still an issue worth taking into account while writing your code.
 
 #### Coming soon
 _Javascript performance enhancing examples_
