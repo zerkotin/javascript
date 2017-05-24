@@ -1,26 +1,41 @@
-///implementing promise all
-function someAsyncProcess() {
-  var results = []; //initializing results array
-  var listener = null; //initializing a listener
+//aync problem
+var requests = ['1.json', '2.json', '3.json', '4.json', '5.json'];
+var results = [];
+for(var i = 0; i < requests.length; i++) {
+    fetch(requests[i]).then(function(response){ //fetch creates an ajax call and returns a promise
+      results.push(response.data); //collecting data 
+    });
+}
+return results; //oops! results is still empty!
 
-  var promise = {
-      then: function(callback){
-          listener = callback;
-          if(results.length == 10) { //if we already finished
-              listener(results); //we can call the listener
-          }
-      }
-  };
+//lets try again, we rewrite the fetch part...
+fetch(requests[i]).then(function(response){
+  results.push(response.data);
+  
+  //the addition
+  if(results.length === requests.length) {
+    return results; //oops!, we are returning the callback, it doesnt return a value anywhere!
+  }
+});
 
-  for(var i = 0; i <10; i++) {
-      fetch('my.json').then(function(response){
-        results.push(response.data); //collecting data
+//lets revise the whole thing
+var requests = ['1.json', '2.json', '3.json', '4.json', '5.json'];
 
-        if(results.length == 10) { //not i == 9 !!!! fetch is async
-            listener && listener(results); //call listener when were done
+function getData(requests, callback) { //a wrapper function
+  var results = [];
+  for(var i = 0; i < requests.length; i++) {
+      fetch(requests[i]).then(function(response){ //fetch creates an ajax call and returns a promise
+        results.push(response.data); //collecting data 
+        
+        if(results.length === requests.length) { //checking if its the last one
+          callback(results); //now that should work
         }
       });
   }
-
-  return promise;
 }
+
+//how we use it?
+getData(function(results) {
+  console.log(results); //Array[5]
+});
+
