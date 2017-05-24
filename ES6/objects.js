@@ -46,16 +46,12 @@ Object.setPrototypeOf( o2, o1 ); //setting the prototype
 o2.foo(); //2
 
 //Object.assign
-var options1 = {
-  config1: 'someconfig',
-  config2: 'someotherconfig',
-  config3: 'overriden'
-}
+var o1 = {a: 'a'};
+var o2 = {b: 'b'};
+var o3 = {b: 'gotcha', c: 'c'};
 
-var options2 = {
-  config3: 'anotherconfig'
-}
-
-var options3 = Object.assign({}, options1, options2); //target, source, source...
-options3; //config1: someconfig, config2: someotherconfig, config3: anotherconfig
+var o = Object.assign(o1, o2, o3); //target, source, source...
+o; //{a: "a", b: "gotcha", c: "c"}
+o1; //{a: "a", b: "gotcha", c: "c"}
+//if we didn't want to change o1: var o = Object.assign({}, o1, o2, o3);
 
