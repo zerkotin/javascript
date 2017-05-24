@@ -52,6 +52,12 @@ ES6 is the rising new standard, it includes several solutions for old Javascript
 - [promises.js](ES6/promises.js)
 - [proxies.js](ES6/proxies.js)
 
+## Performance
+Javascript performance is less of an issue with the advancement of computers and browsers, but its still an issue worth learning.
+
+#### Coming soon
+_Javascript performance enhancing examples_
+
 ## Credits:  
 Code examples are copied/inspired by ["You-Dont-Know-JS"](https://github.com/getify/You-Dont-Know-JS) and ["MDN"](https://developer.mozilla.org/en-US/)
 
