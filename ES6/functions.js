@@ -23,14 +23,19 @@ function foo({x = 10} = {}) {
 foo(); //10
 
 //arrow functions example
-var foo = (a) => console.log(a);
-foo(2); //2
+var foo = (a) => console.log(a); //with brackets
+var foo = a => console.log(a); //without brackets
+var foo = (a, b) => {  //with body
+  console.log(a, b);
+};
+
+foo(2); //2, undefined
 
 //arrow functions scope
 function Counter() { //a counter that will count every second
   this.counter = 0;
   
-  setInterval((function(){this.counter++}).bind(this), 1000); //we need bind.., otherwise this.counter++ will work on Window instead of the Counter instance
+  setInterval((function(){this.counter++}).bind(this), 1000); //we need bind.., remember call site?
   setInterval( () => this.counter++, 1000); //we dont need bind, arrow function are bounded to this automatically
 }
 
