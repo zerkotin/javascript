@@ -35,7 +35,7 @@ function getData(requests, callback) { //a wrapper function
 }
 
 //how we use it?
-getData(function(results) {
+getData(requests, function(results) {
   console.log(results); //Array[5]
 });
 
