@@ -1,3 +1,2 @@
 //the promise pattern
-//TODO a quick promise implemenation and usage in es5
-//TODO a quick example of promises in ES6
+//TODO a quick promise implemenation and usage in es5, ES6 will be covered in the ES6 section
