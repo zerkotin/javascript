@@ -5,8 +5,8 @@
 })(); //hello
 
 
-///modules
-function User(){
+///modules in node
+var api = (function User(){ //can also be used as an export for a node module and then required
 	var username, password;
 
 	function doLogin(user,pw) {
@@ -21,12 +21,9 @@ function User(){
 	};
 
 	return publicAPI;
-}
+})(); //publicAPI is stored in api
 
-//create a `User` module instance
-var fred = User();
-
-fred.login('fred', '12Battery34!');
+api.login('fred', '12Battery34!'); //use the api
 
 ///security
 var a = 2;
