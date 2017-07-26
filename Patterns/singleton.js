@@ -34,5 +34,5 @@ class EventsManager {
   
 }
 
-let eventManager = new EventManager();
+let eventManager = new EventManager(); //creating an instance
 export default eventManager; //exporting a singleton
