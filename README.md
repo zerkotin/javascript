@@ -48,11 +48,11 @@ Design patterns in javascript are not a common commodity, but they are important
 
 ### Order
 - [modules.js](Patterns/modules.js)
+- [singleton.js](Patterns/singleton.js)
 
 #### Coming soon
 - [promises.js](Patterns/promises.js)
 - [factory.js](Patterns/factory.js)
-- [singleton.js](Patterns/singleton.js)
 
 _More design patterns examples coming soon..._
 
