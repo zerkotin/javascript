@@ -1,2 +1,17 @@
 //the promise pattern
-//TODO a quick promise implemenation and usage in es5, ES6 will be covered in the ES6 section
+//a quick example of a very shallow promise implemantation
+var api = {
+  get: function(url) {
+    var response = {}; //some response object
+    return {
+      then: function(callback) {
+        callback(response);
+      }
+    };
+  }
+};
+
+//example of how to use the api
+api.get('projects').then(function(res) {
+  //do some stuff with the response
+});
