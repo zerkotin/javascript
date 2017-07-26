@@ -1,3 +1,4 @@
+//the nodejs style
 ///IIFE
 (function IIFE(){ //Immediately Invoked Function Expressions
 	console.log('Hello');
