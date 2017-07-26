@@ -47,11 +47,11 @@ ES6 is the rising new standard, it includes several solutions for old Javascript
 Design patterns in javascript are not a common commodity, but they are important to learn as they can be tricky sometimes.  
 
 ### Order
+- [promises.js](Patterns/promises.js)
 - [modules.js](Patterns/modules.js)
 - [singleton.js](Patterns/singleton.js)
 
 #### Coming soon
-- [promises.js](Patterns/promises.js)
 - [factory.js](Patterns/factory.js)
 
 _More design patterns examples coming soon..._
