@@ -37,10 +37,10 @@ ES6 is the rising new standard, it includes several solutions for old Javascript
 - [templates.js](ES6/templates.js)
 - [classes.js](ES6/classes.js)
 - [modules.js](ES6/modules.js)
+- [promises.js](ES6/promises.js)
 
 #### Coming soon
 - [symbols.js](ES6/symbols.js)
-- [promises.js](ES6/promises.js)
 - [proxies.js](ES6/proxies.js)
 
 ## Design Patterns
