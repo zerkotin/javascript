@@ -1,7 +1,6 @@
 //Config.js
 //we have a basic controller object
 const controller = {
-  path: null,
   getUrl(id) {
     if(id && this.path.indexOf(':id') !== -1) {
       return this.path.replace(':id', id); //replace the placeholder with the id
@@ -19,8 +18,8 @@ const controller = {
 }
 
 //factory for controllers
-function createController(url) {
-  return Object.assign(Object.create(controller), {url});
+function createController(path) {
+  return Object.assign(Object.create(controller), {path});
 }
 
 //now lets use it
