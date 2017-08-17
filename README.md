@@ -50,8 +50,6 @@ Design patterns in javascript are not a common commodity, but they are important
 - [promises.js](Patterns/promises.js)
 - [modules.js](Patterns/modules.js)
 - [singleton.js](Patterns/singleton.js)
-
-#### Coming soon
 - [factory.js](Patterns/factory.js)
 
 _More design patterns examples coming soon..._
