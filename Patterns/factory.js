@@ -2,13 +2,13 @@
 //we have a basic controller object
 const controller = {
   getUrl(id) {
-    if(id && this.path.indexOf(':id') !== -1) {
+    if(id && this.path.includes(':id')) {
       return this.path.replace(':id', id); //replace the placeholder with the id
     }
-    else if(id && this.path.indexOf(':id') === -1){ //didnt expect id but received one
+    else if(id && !this.path.includes(':id')){ //didnt expect id but received one
       throw new Error('did not expect id');
     }
-    else if(!id && this.path.indexOf(':id') !== -1) { //expected id but didn't receive one
+    else if(!id && this.path.includes(':id')) { //expected id but didn't receive one
       throw new Error('expected id');
     }
     else {
