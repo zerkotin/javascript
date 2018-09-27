@@ -2,7 +2,7 @@
 var o = {a: 'hello', b: 'how', c: 'are', d: 'you'};
 var arr = ['hello', 'how', 'are', 'you'];
 
-//object destruction
+//object destructuring
 var {b, c, d, e} = o;
 a; //undefined
 b; //"how"
@@ -20,7 +20,7 @@ a; //"hello"
 b; //"hello"
 
 
-//array destruction
+//array destructuring
 var [, b, c, d, e] = arr;
 a; //undefined
 b; //"how"
@@ -55,4 +55,4 @@ var target = {};
 ({[ref]: target[ref]} = source); //you have to bracket it
 target.x; //5
 
-//REMINDER Hierarchical destructing
+//REMINDER Hierarchical destructuring
