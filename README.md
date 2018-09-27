@@ -31,7 +31,7 @@ ES6 is the rising new standard, it includes several solutions for old Javascript
 - [let.js](ES6/let.js)
 - [constants.js](ES6/constants.js)
 - [3dot.js](ES6/3dot.js)
-- [destruction.js](ES6/destruction.js)
+- [destructuring.js](ES6/destructuring.js)
 - [functions.js](ES6/functions.js)
 - [objects.js](ES6/objects.js)
 - [templates.js](ES6/templates.js)
