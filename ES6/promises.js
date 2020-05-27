@@ -44,5 +44,6 @@ const api = {
 
 api.get('users.json').then(res => console.log(res)); // prints users.json
 
-//theres also Promise.all
-//TODO
+//Promise.all - will wrap several promises and notify you when everything is done
+//you can also return a value in the promise callback - this will result a promise that is resolved with the value we returned.
+
