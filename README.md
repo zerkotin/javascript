@@ -45,7 +45,7 @@ ES6 introduced new standards, it includes several solutions for old Javascript a
 - ES2017 and ES2020
 
 ## Design Patterns
-Design patterns in javascript are not a common commodity, but they are important to learn as they can be tricky sometimes.  
+Design patterns in javascript are not commonly used, but they are important to learn as they can be tricky sometimes.  
 
 ### Order
 - [promises.js](Patterns/promises.js)
