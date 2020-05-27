@@ -2,12 +2,12 @@
 Explaining Javascript with Javascript
 
 This project is meant to explain javascript through code examples and comments.  
-Javascript is not meant to be merely used, it should be understood from the core.
+Javascript is not meant to be merely used, it is very different from Object Oriented Languages and should be understood from the core up in order to avoid painful bugs.
 
 ## ES5
-Currently, becuase of browser support and the fact that most apps needs to support relatively old browsers (of course old is relative), most projects will be written in ES5 or alternatively be converted to ES5 using Babel or something similar.  
+Unfortunately due to browser support and the fact that most apps needs to support relatively old browsers (of course old is relative), most projects are still written in ES5 or alternatively be converted to ES5 using Babel or something similar.  so it's important that we learn the basics of ES5 before proceeding with new subjects.
 
-### Order
+### Subjects
 - [types.js](ES5/types.js)
 - [conditionals.js](ES5/conditionals.js)
 - [coercion.js](ES5/coercion.js)
@@ -27,7 +27,7 @@ Currently, becuase of browser support and the fact that most apps needs to suppo
 ## ES6
 ES6 introduced new standards, it includes several solutions for old Javascript ailments such as `let`, `class`, `proxy` and so on... we will cover the most of them in the next pages.
 
-### Order
+### Subjects
 - [let.js](ES6/let.js)
 - [constants.js](ES6/constants.js)
 - [3dot.js](ES6/3dot.js)
@@ -42,6 +42,7 @@ ES6 introduced new standards, it includes several solutions for old Javascript a
 #### Coming soon
 - [symbols.js](ES6/symbols.js)
 - [proxies.js](ES6/proxies.js)
+- ES2017 and ES2020
 
 ## Design Patterns
 Design patterns in javascript are not a common commodity, but they are important to learn as they can be tricky sometimes.  
