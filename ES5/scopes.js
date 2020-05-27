@@ -1,3 +1,5 @@
+// scopes AKA closures
+
 ///global scope
 function globalizeMe() { //lets define a function called globalizeMe
   a = 1; //without var it will be defined directly on the window object
