@@ -25,7 +25,7 @@ Currently, becuase of browser support and the fact that most apps needs to suppo
 - [async.js](ES5/async.js)
 
 ## ES6
-ES6 is the rising new standard, it includes several solutions for old Javascript ailments such as `let`, `class`, `proxy` and so on...
+ES6 introduced new standards, it includes several solutions for old Javascript ailments such as `let`, `class`, `proxy` and so on... we will cover the most of them in the next pages.
 
 ### Order
 - [let.js](ES6/let.js)
