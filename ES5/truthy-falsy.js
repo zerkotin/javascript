@@ -10,7 +10,7 @@ var g = false;
 console.log(a || b || c || d || e || f || g); //false, because they are all false
 
 
-///whatever is not falsy would be truthy, here's some examples..
+///whatever is not falsy would be truthy, the following are all truthy...
 a = 'hello'; //string
 b = 42; //number
 c = true; //boolean true
