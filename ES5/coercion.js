@@ -1,4 +1,4 @@
-//Coercion is in some ways similar ro casting - but is also different
+//Coercion is the combination of 2 types and the resulting type/value
 
 //converting to numbers
 var a = '42';
