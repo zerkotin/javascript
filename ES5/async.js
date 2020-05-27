@@ -39,3 +39,4 @@ getData(requests, function(results) {
   console.log(results); //Array[5]
 });
 
+// alternatively we can use promises - we will see that in the promises section
