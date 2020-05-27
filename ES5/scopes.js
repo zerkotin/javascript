@@ -31,10 +31,13 @@ function three() {
 
 function four() {
 	var a = 4;
-	return function callme(){
+	
+	function callme(){
 		console.log(a);
 	}
+	
 	callme();
+	return callme;
 }
 
 one(); //1
