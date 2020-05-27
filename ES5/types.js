@@ -1,3 +1,4 @@
+//we have 7 basic types
 var a;
 typeof a; //undefined
 
@@ -24,11 +25,11 @@ typeof a; //object
 a = function(){}
 typeof a; //function
 
-//in general we can say we have 7 types
 //undefined, null, string, number, boolean, object, function
-//in addition, we are introduced to a new type called Symbol, in ES2015 (AKA ES6)
+//in ES2015/ES6 we are introduced to an extra type called "Symbol"
 
 
+//in addition, Object has subtypes
 ///subtypes of Object
 String;
 Number;
@@ -39,3 +40,5 @@ Array;
 Date;
 RegExp;
 Error;
+
+//in later versions of ECMAScript more subtypes were introduced
