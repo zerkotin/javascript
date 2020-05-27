@@ -23,5 +23,10 @@ function two() {
 	console.log( a );
 }
 
+function three() {
+	console.log(a);
+}
+
 one(); //1
 two(); //2
+three(); //1 - it will print the global one
