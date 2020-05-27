@@ -1,4 +1,6 @@
-///converting to numbers
+//Coercion is in some ways similar ro casting - but is also different
+
+//converting to numbers
 var a = '42';
 var b = Number( a );
 
