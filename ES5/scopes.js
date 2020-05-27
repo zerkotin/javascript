@@ -29,7 +29,7 @@ function three() {
 
 function four() {
 	var a = 4;
-	function callme(){
+	return function callme(){
 		console.log(a);
 	}
 	callme();
@@ -39,4 +39,5 @@ one(); //1
 two(); //2
 a = 3; //pulluting the global scope (window)
 three(); //3 - it will print the global one
-four(); //4
+var logit = four(); //4
+logit(); //4
