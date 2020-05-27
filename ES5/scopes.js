@@ -1,4 +1,6 @@
 // scopes AKA closures
+// this will cover private and global scopes with a touch of closures
+// but closures are better covered in the closures part
 
 ///global scope
 function globalizeMe() { //lets define a function called globalizeMe
