@@ -17,11 +17,14 @@ a != b; //with coercion
 a !== b; //without coercion
 
 //more interesting facts
-false == 0; //true -- same goes for empty string ''
-false === 0; //false -- same goes for empty string ''
+false == 0; //true
+false === 0; //false
 
-'' == false; //true -- same with 0
-'' === false; //false -- same with 0
+'' == false; //true
+'' === false; //false
+
+'' == 0; //true
+'' === 0; //false
 
 //but funny enough not this
 false == undefined; //false
