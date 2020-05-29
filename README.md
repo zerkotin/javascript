@@ -39,29 +39,23 @@ ES6 introduced new standards, it includes several solutions for old Javascript a
 - [modules.js](ES6/modules.js)
 - [promises.js](ES6/promises.js)
 
-#### Coming soon
-- [symbols.js](ES6/symbols.js)
-- [proxies.js](ES6/proxies.js)
-- ES2017 to ES2020
-
 ## Design Patterns
 Design patterns in javascript are not commonly used, but they are important to learn as they can be tricky sometimes.  
 
-### Order
 - [promises.js](Patterns/promises.js)
 - [modules.js](Patterns/modules.js)
 - [singleton.js](Patterns/singleton.js)
 - [factory.js](Patterns/factory.js)
 
-_More design patterns examples coming soon..._
-
-
-### Coming soon
-_Javascript general Code Guideline_
-
 ### Further reading
-[Async/Await](https://javascript.info/async-await)
-[Generator functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function*)
+- [Async/Await](https://javascript.info/async-await)
+- [Generator functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function*)
+- [Symbols](https://javascript.info/symbol)
+- [Proxies](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy)
+- ES2017 to ES2020
+
+### Futurte plans
+_Javascript general Code Guideline_
 
 ## Credits:  
 Code examples are copied/inspired by ["You-Dont-Know-JS"](https://github.com/getify/You-Dont-Know-JS) and ["MDN"](https://developer.mozilla.org/en-US/)
