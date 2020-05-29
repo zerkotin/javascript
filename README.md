@@ -52,6 +52,7 @@ Design patterns in javascript are not commonly used, but they are important to l
 - [Generator functions](https://javascript.info/generators)
 - [Symbols](https://javascript.info/symbol)
 - [Proxies](https://javascript.info/proxy)
+- [?? Nullish operator](https://javascript.info/nullish-coalescing-operator)
 - ES2017 to ES2020
 
 ### Futurte plans
