@@ -12,6 +12,7 @@ import Workman from './Worker.js'; //importing Worker class - can change its nam
 
 let workman = new Workman(); //using the imported Worker class
 
+// --------------------------
 
 //File: MultipleModules.js
 class Foo {} //a class with some implementation
@@ -23,3 +24,15 @@ export {Foo, Bar}; //exporting multiple classes
 import {Bar} from './MultipleModules.js'; //importing Bar using destruction
 
 Bar.something(); //use Bar
+
+// --------------------------
+
+//File: MultipleModules.js
+export class Foo {} //a class with some implementation
+export class Bar{...} //a class with some implementation
+
+//File: index.js
+import MM from './MultipleModules.js'; //importing Bar using destruction
+
+MM.Bar.something(); //use Bar
+
