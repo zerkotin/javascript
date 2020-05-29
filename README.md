@@ -49,9 +49,9 @@ Design patterns in javascript are not commonly used, but they are important to l
 
 ### Further reading
 - [Async/Await](https://javascript.info/async-await)
-- [Generator functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function*)
+- [Generator functions](https://javascript.info/generators)
 - [Symbols](https://javascript.info/symbol)
-- [Proxies](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy)
+- [Proxies](https://javascript.info/proxy)
 - ES2017 to ES2020
 
 ### Futurte plans
