@@ -22,7 +22,8 @@ Unfortunately due to browser support and the fact that most apps needs to suppor
 - [objects.js](ES5/objects.js)
 - [this.js](ES5/this.js)
 - [prototypes.js](ES5/prototypes.js)
-- [async.js](ES5/async.js)
+
+- [common misconceptions](ES5/bugs.js)
 
 ## ES6
 ES6 introduced new standards, it includes several solutions for old Javascript ailments such as `let`, `class`, `proxy` and so on... we will cover the most of them in the next pages.
@@ -38,14 +39,6 @@ ES6 introduced new standards, it includes several solutions for old Javascript a
 - [classes.js](ES6/classes.js)
 - [modules.js](ES6/modules.js)
 - [promises.js](ES6/promises.js)
-
-## Design Patterns
-Design patterns in javascript are not commonly used, but they are important to learn as they can be tricky sometimes.  
-
-- [promises.js](Patterns/promises.js)
-- [modules.js](Patterns/modules.js)
-- [singleton.js](Patterns/singleton.js)
-- [factory.js](Patterns/factory.js)
 
 ### Further reading
 - [Async/Await](https://javascript.info/async-await)
