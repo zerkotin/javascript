@@ -38,3 +38,11 @@ foo( 'a', 'b', 'c', 'd', 'e' );	 //"a" "b" ["c", "d", "e"]
 var arr = [ 'a', ...['b', 'c', 'd'], 'e' ];
 console.log(arr); //["a", "b", "c", "d", "e"]
 
+//the ... in objects
+var a = {x:1, y: 2};
+var b = {z: 3, w: 4, ...a};
+b; // {x:1, y:2, z:3, w:4}
+
+var clone = {...a}; // shalow clone
+
+
