@@ -55,11 +55,13 @@ Design patterns in javascript are not commonly used, but they are important to l
 
 _More design patterns examples coming soon..._
 
-## Performance
-Javascript performance is less of an issue with the advancement of computers and browsers, but its still an issue worth taking into account while writing your code.
 
-#### Coming soon
-_Javascript performance enhancing examples_
+### Coming soon
+_Javascript general Code Guideline_
+
+### Further reading
+[Async/Await](https://javascript.info/async-await)
+[Generator functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function*)
 
 ## Credits:  
 Code examples are copied/inspired by ["You-Dont-Know-JS"](https://github.com/getify/You-Dont-Know-JS) and ["MDN"](https://developer.mozilla.org/en-US/)
