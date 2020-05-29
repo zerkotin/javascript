@@ -7,7 +7,6 @@ Javascript is not meant to be merely used, it is very different from Object Orie
 ## ES5
 Unfortunately due to browser support and the fact that most apps needs to support relatively old browsers (of course old is relative), most projects are still written in ES5 or alternatively be converted to ES5 using Babel or something similar.  so it's important that we learn the basics of ES5 before proceeding with new subjects.
 
-### Subjects
 - [types.js](ES5/types.js)
 - [conditionals.js](ES5/conditionals.js)
 - [coercion.js](ES5/coercion.js)
@@ -22,13 +21,11 @@ Unfortunately due to browser support and the fact that most apps needs to suppor
 - [objects.js](ES5/objects.js)
 - [this.js](ES5/this.js)
 - [prototypes.js](ES5/prototypes.js)
-
 - [common misconceptions](ES5/bugs.js)
 
 ## ES6
 ES6 introduced new standards, it includes several solutions for old Javascript ailments such as `let`, `class`, `proxy` and so on... we will cover the most of them in the next pages.
 
-### Subjects
 - [let.js](ES6/let.js)
 - [constants.js](ES6/constants.js)
 - [3dot.js](ES6/3dot.js)
